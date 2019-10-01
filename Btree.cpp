@@ -7,7 +7,7 @@ class BTreeNode
 	int t;
 	vector <BTreeNode *> C;
 	bool leaf;
-public:
+  public:
 	BTreeNode(int t, bool leaf);
 	void traverse(int tab);
 	BTreeNode* search(int k);
